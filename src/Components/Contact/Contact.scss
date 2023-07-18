@@ -1,0 +1,107 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+@media (min-width: 320px) {
+  .con-container {
+    width: 95%;
+    margin: auto;
+  }
+  .con-col-right {
+    width: 100%;
+    margin-top: 30px;
+  }
+  .con-col-left {
+    width: 100%;
+  }
+}
+@media (min-width: 620px) {
+  .con-container {
+    width: 90%;
+    margin: auto;
+  }
+  .con-col-right {
+    width: 50%;
+    margin-top: 3px;
+  }
+  .con-col-left {
+    width: 50%;
+    margin-top: 3px;
+  }
+}
+@media (min-width: 960px) {
+  .con-container {
+    width: 50%;
+    margin: auto;
+  }
+  .con-col-right {
+    width: 60%;
+    margin-top: 3px;
+  }
+  .con-col-left {
+    width: 40%;
+    margin-top: 3px;
+  }
+}
+#contact {
+  padding: 3rem 0 2rem 0;
+  margin: 3rem 0 2rem 0;
+}
+.con-flex {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 20px;
+}
+
+.con-row {
+  display: flex;
+  flex-wrap: wrap;
+
+  padding-top: 1.5rem;
+}
+
+.con-col-left {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.con-para {
+  line-height: 23px;
+  width: 60%;
+}
+.con-inputs {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.con-inputs input {
+  padding: 10px;
+  width: 100%;
+  border: 1px solid #86828238;
+}
+#ta {
+  padding-bottom: 80px;
+}
+.con-inputs a {
+  text-decoration: none;
+  color: #fff;
+  background-color: #199eb8;
+  padding: 10px 20px;
+  width: 50%;
+  margin: auto;
+  text-align: center;
+  margin-top: 20px;
+}
+.con-inputs a:hover {
+  background-color: #199eb89f;
+}
+::placeholder {
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+.con-icon {
+  color: #199eb8;
+  font-size: 1.9rem;
+}

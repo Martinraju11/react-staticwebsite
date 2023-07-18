@@ -1,0 +1,74 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+@media (min-width: 320px) {
+  .callhead {
+    width: 100%;
+    text-align: center;
+  }
+  .callbutton {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+  }
+  #callta {
+    padding: 2rem 1rem;
+    margin: 3rem 0 2rem 0;
+  }
+}
+@media (min-width: 620px) {
+  .callhead {
+    width: 100%;
+    text-align: center;
+  }
+  .callbutton {
+    width: 50%;
+    margin: auto;
+  }
+  #callta {
+    padding: 2rem;
+  }
+}
+@media (min-width: 960px) {
+  .callhead {
+    width: 80%;
+    text-align: left;
+  }
+  .callbutton {
+    width: 20%;
+  }
+  #callta {
+    padding: 2rem 3rem;
+  }
+}
+#callta {
+  margin: 2rem 0 2rem 0;
+  background-color: #199eb8;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+.callhead {
+  color: #fff;
+  padding: 15px;
+}
+.callhead p {
+  color: #e4e1e1;
+  padding: 20px 0;
+  line-height: 26px;
+}
+.callbutton a {
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 20px;
+  background-color: #08849c;
+  border: 2px solid #fff;
+}
+.callbutton a:hover {
+  background-color: #fff;
+  color: #08849c;
+}

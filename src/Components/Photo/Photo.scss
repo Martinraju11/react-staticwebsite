@@ -1,0 +1,44 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+@media (min-width: 320px) {
+  #photo {
+    height: 75vh;
+  }
+}
+@media (min-width: 620px) {
+  #photo {
+    height: 50vh;
+  }
+}
+@media (min-width: 960px) {
+  #photo {
+    height: 70vh;
+  }
+}
+#photo {
+  padding: 3rem 0 2rem 0;
+  margin: 3rem 0 2rem 0;
+  background-image: url("../../images/parallax-bg.jpg");
+  background-size: cover;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  color: #fff;
+  text-align: center;
+  background-position: center;
+}
+.gadget {
+  max-width: 100%;
+  height: auto;
+}
+.picpara {
+  padding: 30px 0 35px 0;
+}
+.pichead h1 {
+  padding-top: 20px;
+  width: 80%;
+  margin: auto;
+}
